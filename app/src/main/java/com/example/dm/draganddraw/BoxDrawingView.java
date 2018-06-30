@@ -41,6 +41,7 @@ public class BoxDrawingView extends View {
     public boolean onTouchEvent(MotionEvent event) {
         PointF current = new PointF(event.getX(), event.getY());
         String action = "";
+
         switch (event.getAction()) {
             case MotionEvent.ACTION_DOWN:
                 action = "ACTION_DOWN";
